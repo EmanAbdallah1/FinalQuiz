@@ -1,0 +1,51 @@
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.MuiFormGroup-row {
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+#quizWrap{
+  width: 600px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.banner {
+  width: 55%;
+  align-self: center;
+  padding: 8px;
+}
+
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .banner {
+    width: 85%;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .settings {
+    width: 100%;
+  }
+}
+
+.settings__select {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  flex: 0.8;
+  justify-content: space-evenly;
+}
+.difficult{
+  font-size: 21px!important;
+  margin-bottom: 1rem!important;
+  margin-top: 1rem!important;
+}
